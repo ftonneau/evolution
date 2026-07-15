@@ -102,20 +102,26 @@ boot-time resolution is 1600 x 1200 pixels.
 
 # Installation
 
-Create a directory somewhere on your computer, download the provided
-[zip archive](evolution.zip), and unpack it in the directory you just
-created:
+First, create a directory somewhere on your computer.
+
+Second, scroll back to the top of this page and have a look at the file tree.
+One of the files is called, **evolution.zip**. This zip archive contains all
+that you need to install Evolution. Right-click on **evolution.zip** to open
+a file menu, and choose the "**Save Link As...**" option.
+
+Once **evolution.zip** saved on your computer, put it in the directory you
+just created, and unpack the archive:
 
 ```
 unzip evolution.zip
 ```
 
-Once unpacked, the zip archive will provide two shell scripts, `install.sh`
-and `uninstall.sh`, and two subdirectories, `data/` and `wallpapers/`. The
-`data/` subdirectory contains a list of SVG data needed to create entry
-emblems. The `wallpapers/` subdirectory contains the default wallpaper.
+This will provide you with two shell scripts, `install.sh` and `uninstall.sh`,
+and two subdirectories, `data/` and `wallpapers/`. The `data/` subdirectory
+contains a list of SVG data needed to create entry emblems. The `wallpapers/`
+subdirectory contains the default wallpaper.
 
-You will need to make the install and uninstall scripts **executable**:
+Finally, make sure that the install and uninstall scripts are **executable**:
 
 ```
 chmod u+x install.sh uninstall.sh
