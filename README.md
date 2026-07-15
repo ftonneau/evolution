@@ -106,8 +106,12 @@ First, **create a directory** (say, "evolution") somewhere on your computer.
 
 Second, scroll back to the top of this page and have a look at the file tree.
 One of the files is called, **evolution.zip**. This zip archive contains all
-that you need to install Evolution. Right-click on evolution.zip to open a
-context menu, and choose the "**Save Link As...**" option.
+that you need to install Evolution.
+
+Right-click on evolution.zip to open a context menu, and choose the "**Open
+Link in New Tab**" option. From this new tab, GitHub will give you the opportunity
+to download the raw archive by clicking on the **Raw** button or the associated
+download icon.
 
 Once evolution.zip saved on your computer, put it in the directory you just
 created, and **unpack the archive**:
