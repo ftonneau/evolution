@@ -46,9 +46,9 @@ an icon on the left side of each entry.
 GRUB still displays the text of actual entries alongside the fake ones, however,
 so we mask the right side of the menu with a PNG image split from the background
 wallpaper. Also, we cover the borders around each fake entry by sandwiching the
-entries between two layers. The bottom layer is just the menu background. The
-top layer is a duplicate of the bottom layer, except for a series of hollow
-contours that let the fake entries show through.
+entries between two additional PNG layers. The bottom layer is just the menu
+background. The top layer is a duplicate of the bottom layer, except for a
+series of hollow contours that let the fake entries show through.
 
 
 # Limited distribution support
