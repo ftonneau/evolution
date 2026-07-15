@@ -233,7 +233,7 @@ as well as the camera, cog, memory, and power emblems, were downloaded from
 
 All of the other emblems were downloaded from Wikimedia Commons or custom made.
 
-Emblems were simplified whenever needed to accomodate a reduced display size.
+Emblems were simplified whenever needed to accommodate a reduced display size.
 
 # Thanks
 
