@@ -102,15 +102,15 @@ boot-time resolution is 1600 x 1200 pixels.
 
 # Installation
 
-First, create a directory somewhere on your computer.
+First, **create a directory** (say, "evolution") somewhere on your computer.
 
 Second, scroll back to the top of this page and have a look at the file tree.
 One of the files is called, **evolution.zip**. This zip archive contains all
-that you need to install Evolution. Right-click on **evolution.zip** to open
-a file menu, and choose the "**Save Link As...**" option.
+that you need to install Evolution. Right-click on evolution.zip to open a
+context menu, and choose the "**Save Link As...**" option.
 
-Once **evolution.zip** saved on your computer, put it in the directory you
-just created, and unpack the archive:
+Once evolution.zip saved on your computer, put it in the directory you just
+created, and **unpack the archive**:
 
 ```
 unzip evolution.zip
