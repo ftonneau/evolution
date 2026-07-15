@@ -223,11 +223,11 @@ downloaded from the corresponding distribution/OS web sites.
 
 The emblems for Apple, Arch, Debian, Fedora, Gentoo, Mint, Ubuntu, Windows,
 as well as the camera, cog, memory, and power emblems, were downloaded from
-[pictogrammers.com](/https://pictogrammers.com/library/mdi/).
+[pictogrammers](/https://pictogrammers.com/library/mdi/).
 
-Other emblems were custom made or downloaded from Wikimedia Commons. They were
-simplified or modified whenever needed to accomodate a reduced display size.
+All of the other emblems were downloaded from Wikimedia Commons or custom made.
 
+Emblems were simplified whenever needed to accomodate a reduced display size.
 
 # Thanks
 
