@@ -60,6 +60,9 @@ is located at `/boot/grub/`.
 Thus, **Fedora**, or more generally, any distribution that relies on `grub2-mkconfig`
 instead of `grub-mkconfig`, **is not supported.**
 
+Please note that supporting Fedora is a non-goal. The brave souls who would like
+to adapt Evolution to Fedora are welcome to fork the project :-)
+
 Evolution has been tested successfully on Arch, elementary OS, and Kubuntu.
 
 
