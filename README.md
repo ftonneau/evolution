@@ -1,15 +1,15 @@
-# Evolution
+# Grub EvoDevo
 
-Evolution is a configurable GRUB theme with scalable graphics, background blurring,
+Grub EvoDevo is a configurable GRUB theme with scalable graphics, background blurring,
 and antialiased true-type fonts. Any wallpaper (e.g., your desktop wallpaper) can be
 used as theme background.
 
-The style of the Evolution menu can be narrow or wide. A narrow-style menu has
+The style of the EvoDevo menu can be narrow or wide. A narrow-style menu has
 rounded corners, a header that can be colored independently, and rectangular
 entries without margins. A wide-style menu has square corners, no separate
 header, and rounded entries with left and right margins.
 
-Evolution is configured by changing the value of variables in the installation
+EvoDevo is configured by changing the value of variables in the installation
 script. The most important variables are screen width, screen height, and font
 size. All graphics are scaled as a function of font size, so the theme can be
 made to look good at any screen resolution. Menu colors, amount of blurring,
@@ -21,7 +21,7 @@ These two screenshots show examples of narrow-style and wide-style menus.
 
 ![example-wide](example-wide.png)
 
-The last screenshot shows what Evolution looks like with the provided default
+The last screenshot shows what EvoDevo looks like with the provided default
 wallpaper and without any custom configuration except for screen width, screen
 height, and font size.
 
@@ -34,8 +34,8 @@ it is assigned a hashbang (#) as emblem.
 
 # How it works
 
-GRUB does not do font antialiasing natively, so Evolution uses a workaround to
-achieve non-pixelated menu entries. Everything in the Evolution menu is built
+GRUB does not do font antialiasing natively, so EvoDevo uses a workaround to
+achieve non-pixelated menu entries. Everything in the EvoDevo menu is built
 from antialiased PNG files.
 
 For each entry in your `grub.cfg` file, the install script builds a corresponding
@@ -53,7 +53,7 @@ series of hollow contours that let the fake entries show through.
 
 # Limited distribution support
 
-Evolution assumes that the GRUB updating command on your system is `grub-mkconfig`
+EvoDevo assumes that the GRUB updating command on your system is `grub-mkconfig`
 (as on Arch and Debian, for example) and that your GRUB configuration file, `grub.cfg`,
 is located at `/boot/grub/`.
 
@@ -61,14 +61,14 @@ Thus, **Fedora**, or more generally, any distribution that relies on `grub2-mkco
 instead of `grub-mkconfig`, **is not supported.**
 
 Please note that supporting Fedora is a non-goal. The brave souls who would like
-to adapt Evolution to Fedora are welcome to fork the project :-)
+to adapt EvoDevo to Fedora are welcome to fork the project :-)
 
-Evolution has been tested successfully on Arch, elementary OS, and Kubuntu.
+EvoDevo has been tested successfully on Arch, elementary OS, and Kubuntu.
 
 
 # Dependencies
 
-Aside from a functional POSIX system, Evolution requires:
+Aside from a functional POSIX system, EvoDevo requires:
 
 - **ImageMagick** or **GraphicsMagick** to resize, crop, and blur your chosen
 wallpaper.
@@ -105,22 +105,22 @@ boot-time resolution is 1600 x 1200 pixels.
 
 # Installation
 
-First, **create a directory** (say, "evolution") somewhere on your computer.
+First, **create a directory** (say, "evodevo") somewhere on your computer.
 
 Second, scroll back to the top of this page and have a look at the file tree.
-One of the files is called, **evolution.zip**. This zip archive contains all
-that you need to install Evolution.
+One of the files is called, **evodevo.zip**. This zip archive contains all
+that you need to install EvoDevo.
 
-Right-click on evolution.zip to open a context menu, and choose the "**Open
+Right-click on evodevo.zip to open a context menu, and choose the "**Open
 Link in New Tab**" option. From this new tab, GitHub will give you the opportunity
 to download the raw archive by clicking on the **Raw** button or the associated
 download icon.
 
-Once evolution.zip saved on your computer, put it in the directory you just
+Once evodevo.zip saved on your computer, put it in the directory you just
 created, and **unpack the archive**:
 
 ```
-unzip evolution.zip
+unzip evodevo.zip
 ```
 
 This will provide you with two shell scripts, `install.sh` and `uninstall.sh`,
@@ -187,12 +187,12 @@ You can now reboot your computer to see what the theme looks like.
 Alternatively, if instead of rebooting you just want to preview
 the results, you can use any image viewer to open:
 
-/usr/share/grub/themes/evolution/panel-back.png
-/usr/share/grub/themes/evolution/panel-front.png
+/usr/share/grub/themes/evodevo/panel-back.png
+/usr/share/grub/themes/evodevo/panel-front.png
 
 and
 
-/usr/share/grub/themes/evolution/icons/*png
+/usr/share/grub/themes/evodevo/icons/*png
 ```
 
 If you do **not** see this message, then something went wrong (and the script will
@@ -201,7 +201,7 @@ of error would be to forget to quote a `VALUE WITH BLANKS IN IT` or to forget a
 closing quote (as this would wreak havoc on the whole shell script).
 
 Once you are satisfied with your configuration, reboot your computer to have
-the Evolution GRUB theme show up.
+the EvoDevo GRUB theme show up.
 
 
 ## Warnings
