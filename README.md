@@ -217,11 +217,30 @@ for the presence of interlacing on export. If everything fails, you may have no
 other choice than trying another wallpaper.
 
 
-# Maintenance
+# Theme maintenance
 
-Whenever your distribution updates GRUB, you will need to re-run `sudo ./install.sh`
-to restore your theme. Do check carefully, however, for the possibility of breaking
-changes in GRUB (your distribution should keep you informed about these).
+Grub EvoDevo adds custom classes (`--class menuitem1`, `--class menuitem2`,
+...) to the menu entries in your `grub.cfg` file. These classes are used to
+fetch the pictures/icons of the fake entries visible on the screen.
+
+Hence, whenever your system overwrites `grub.cfg` (this will happen on any
+GRUB or kernel update, for example), the custom classes will be wiped out
+and **the fake entries will not show up on reboot**:
+
+![empty-menu](example-empty.png)
+
+This may look scary, but the real entries are still there (hidden on the right
+side of the screen) and GRUB remains fully functional. Pressing the arrow keys,
+for example, will still move the focus up and down.
+
+So you can just wait for your default entry to boot; from there, you will
+always be able to restore EvoDevo by running `sudo ./install`. There is no
+need to reconfigure anything, as you already configured the install script.
+
+TLDR: Whenever your distribution updates GRUB, you will need to re-run
+`sudo ./install.sh` to **restore the theme**. Do check carefully, however,
+for the possibility of breaking changes in GRUB (your distribution should
+keep you informed about these).
 
 The theme can be uninstalled at any time by running `sudo ./uninstall.sh`.
 
