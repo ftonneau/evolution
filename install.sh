@@ -148,7 +148,7 @@ else
     stop 'neither rsvg-convert nor Inkscape was detected.'
 fi
 
-theme_path=/usr/share/grub/themes/evolution
+theme_path=/usr/share/grub/themes/evodevo
 theme_file="${theme_path}/theme.txt"
 icons_path="${theme_path}/icons"
 
@@ -619,12 +619,12 @@ You can now reboot your computer to see what the theme looks like.
 Alternatively, if instead of rebooting you just want to preview
 the results, you can use any image viewer to open:
 
-/usr/share/grub/themes/evolution/panel-back.png
-/usr/share/grub/themes/evolution/panel-front.png
+/usr/share/grub/themes/evodevo/panel-back.png
+/usr/share/grub/themes/evodevo/panel-front.png
 
 and
 
-/usr/share/grub/themes/evolution/icons/*png
+/usr/share/grub/themes/evodevo/icons/*png
 
 DOC
 
