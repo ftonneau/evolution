@@ -480,7 +480,7 @@ terminal-height: "80%"
 + image {
     left = $(xpos 0)
     top = $(ypos 0)
-    file = "$theme_path/panel-front.png"
+    file = "panel-front.png"
 }
 
 + image {
@@ -488,7 +488,7 @@ terminal-height: "80%"
     top = 0
     width = $ScreenR
     height = 100%
-    file = "$theme_path/right.png"
+    file = "right.png"
 }
 
 + boot_menu {
@@ -519,7 +519,7 @@ terminal-height: "80%"
 + image {
     left = $(xpos 0)
     top = $(ypos 0)
-    file = "$theme_path/panel-back.png"
+    file = "panel-back.png"
 }
 
 + image {
@@ -527,7 +527,7 @@ terminal-height: "80%"
     top = 0
     width = $ScreenL
     height = 100%
-    file = "$theme_path/left.png"
+    file = "left.png"
 }
 
 DOC
