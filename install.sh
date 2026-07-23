@@ -544,10 +544,6 @@ fi
 
 grub-mkconfig -o "$grub_config_file" || stop 'could not configure GRUB.'
 
-match() {
-    printf %s "$1" | grep -E -i -q "$2"
-}
-
 # MENU ENTRIES REPLACEMENT
 
 rm custom.cfg scan.txt 2>/dev/null
